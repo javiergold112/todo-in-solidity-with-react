@@ -25,7 +25,7 @@ npx hardhat node (This will run Node locally)
 ```
 Open new terminal and run following command to deploy contract:
 ```sh
- npx hardhat run scripts/sample-script.js --network localhost (If things will go well, you will contract address. Copy this address and replace in src/context/SmartContract/index.js line 20)
+ npx hardhat run scripts/deploy.js --network localhost (If things will go well, you will contract address. Copy this address and replace in src/context/SmartContract/index.js line 20)
 ```
 Now install Metamask and connect with http://localhost:8545
 ##### if you face any challenges in local setup. Please follow this Youtube link
